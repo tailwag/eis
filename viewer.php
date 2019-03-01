@@ -91,10 +91,6 @@ div#parent {
 			$file = $val;
 		}
 	}
-	#echo "<p>".$path."</p>";
-	#echo "<p>".$file."</p>";
-
-
 	$boop = 0;
 	#echo $boop;
 	$filesw = scandir($path);
@@ -121,10 +117,6 @@ div#parent {
 			$boop++; 
 		}
 	}
-	#echo "<BR><BR><BR><BR>";
-	#echo "<br>This: ".$files[$thisp];
-	#echo "<br>Next: ".$files[$nextp];
-	#echo "<br>Prev: ".$files[$prevp];
 	$next = $files[$nextp];
 	$prev = $files[$prevp];
 	
