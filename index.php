@@ -66,7 +66,7 @@
 </style>
 </head>
 <body>
-<h1>pr0n.fag.dog</h1>
+<h1>essex image server</h1>
 <br>
 <?php
 function dget($dgdir = "null") {
